@@ -1,8 +1,9 @@
 import React from 'react';
 import DriveImage from './DriveImage';
 
-// Using the 6 new images provided to populate the gallery grid
+// Using the images provided to populate the gallery grid
 const photos = [
+  // --- Original Set ---
   // Large Featured Image
   { 
     driveId: "1YNAp1bjm7OpTmlh-7-vvFiBezAlett2a", 
@@ -18,7 +19,7 @@ const photos = [
     driveId: "1dPsBbtu7gmS1a3lwUBodW5HVYt9vcvk0", 
     span: "md:col-span-1 md:row-span-1" 
   },
-  // Vertical Bottom Left
+  // Vertical Bottom Left (Starts Row 3)
   { 
     driveId: "1fxGhjbrk-8vpiAl7zM4To6HcxBLhecKD", 
     span: "md:col-span-1 md:row-span-2" 
@@ -33,6 +34,40 @@ const photos = [
     driveId: "1BoquuH72XdQsTWwMZx6frMp_s3SzSgpo", 
     span: "md:col-span-1 md:row-span-1" 
   },
+
+  // --- New Set ---
+  // Filling the gap left by the vertical image (Row 4, Col 2)
+  {
+    driveId: "1LcdldHPmRviIf-DjJONfrlJeIMVbO9fj",
+    span: "md:col-span-1 md:row-span-1"
+  },
+  // Filling the gap left by the vertical image (Row 4, Col 3)
+  {
+    driveId: "11wpcuM21cUwIpzoOUzYXm1RXCMJ7qwDY",
+    span: "md:col-span-1 md:row-span-1"
+  },
+  
+  // New Large Block (Starts Row 5)
+  {
+    driveId: "1VXxrSrYTUjtIjz09uJC86pVsBDxMQNnj",
+    span: "md:col-span-2 md:row-span-2"
+  },
+  // Side Stack 1
+  {
+    driveId: "1ik54eay3jJ6RX4aZV7h850G0cmiAtiku",
+    span: "md:col-span-1 md:row-span-1"
+  },
+  // Side Stack 2
+  {
+    driveId: "1QK9k2IobGdPSog61APgWSn_KY1jEVA14",
+    span: "md:col-span-1 md:row-span-1"
+  },
+  
+  // Grand Finale (Full Width)
+  {
+    driveId: "1trUESSQ4Vbb8nfRR0tCbLLJITcg3aI8A",
+    span: "md:col-span-3 md:row-span-2"
+  }
 ];
 
 const Gallery: React.FC = () => {

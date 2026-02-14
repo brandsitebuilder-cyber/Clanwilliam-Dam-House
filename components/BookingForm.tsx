@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, Users, Mail, Phone, CheckCircle, ArrowRight } from 'lucide-react';
+import { Calendar, Users, Mail, Phone, CheckCircle, ArrowRight, MessageCircle } from 'lucide-react';
 import { BookingRequest } from '../types';
 
 const BookingForm: React.FC = () => {
@@ -56,8 +56,16 @@ const BookingForm: React.FC = () => {
           <div className="space-y-8">
             <div className="flex flex-col gap-1">
               <span className="text-xs uppercase tracking-widest text-brand-500">Contact</span>
-              <a href="mailto:stay@clanwilliamhouse.com" className="text-xl hover:text-white transition-colors">stay@clanwilliamhouse.com</a>
-              <a href="tel:+27211234567" className="text-xl hover:text-white transition-colors">+27 (0) 21 123 4567</a>
+              <a href="mailto:sonja@isales.co.za" className="text-xl hover:text-white transition-colors">sonja@isales.co.za</a>
+              <a href="tel:+27824485395" className="text-xl hover:text-white transition-colors">082 448 5395</a>
+              <a 
+                href="https://wa.me/27824485395" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-xl hover:text-white transition-colors flex items-center gap-2 mt-2"
+              >
+                <MessageCircle className="w-5 h-5" /> WhatsApp Owner
+              </a>
             </div>
             <div className="flex flex-col gap-1">
                <span className="text-xs uppercase tracking-widest text-brand-500">Social</span>

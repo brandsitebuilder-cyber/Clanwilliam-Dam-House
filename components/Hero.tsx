@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
         </div>
         
         <h1 className="animate-fade-in-up font-serif text-6xl md:text-8xl lg:text-9xl font-light tracking-tight mb-8 opacity-0 [animation-delay:200ms] fill-mode-forwards drop-shadow-2xl">
-          Breathtaking
+          Breathtaking House
         </h1>
         
         <p className="animate-fade-in-up max-w-lg text-sm md:text-lg font-light leading-relaxed text-white/95 mb-12 opacity-0 [animation-delay:400ms] fill-mode-forwards drop-shadow-md">

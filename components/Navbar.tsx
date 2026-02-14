@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
           onClick={() => scrollToSection('hero')}
         >
           <span className={`text-2xl font-serif tracking-widest uppercase transition-colors duration-300 ${textClass}`}>
-            Breathtaking
+            Breathtaking House
           </span>
         </div>
 
